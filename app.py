@@ -23,8 +23,7 @@ st.markdown(title, unsafe_allow_html=True)
 f1 = "Please type 'yes' if driver license is present, 'no' if missing: "
 
 
-check = st.text_input(
-    "Please type 'yes' if driver license is present, 'no' if missing: ")
+check = st.text_input(f1)
 
 if check == "yes":
     st.text('User  allowed to drive')
