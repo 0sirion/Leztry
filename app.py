@@ -13,7 +13,7 @@ def main():
         if check == "no":
             st.text('User not allowed to drive')
     else:
-        st.text('Command not recognized')
+        st.text('Command not recognixzed')
 
 
 if __name__ == '__main__':
