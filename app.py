@@ -5,7 +5,7 @@ st.title('DriverCheck')
 
 def main():
     check = st.text_input(
-        "Please type 'yes' if river license is present, 'no' if missing: ")
+        "Please type 'yes' if driver license is present, 'no' if missing: ")
 
     if check == "yes":
         st.text('User  allowed to drive')
