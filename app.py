@@ -12,6 +12,8 @@ def main():
 
     if check == "no":
         st.text('User not allowed to drive')
+    else:
+        st.text('Command not recognixsddzed')
 
 
 if __name__ == '__main__':
