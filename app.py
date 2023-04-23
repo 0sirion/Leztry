@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('DriverCheck')
+title = '<p style="font-family:sans-serif; color:Green; font-size: 42px;">New image</p>'
 
 
 def main():
@@ -17,6 +17,8 @@ def main():
         unsafe_allow_html=True
     )
 
+
+st.markdown(title, unsafe_allow_html=True)
 
 check = st.text_input(
     "Please type 'yes' if driver license is present, 'no' if missing: ")
