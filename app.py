@@ -4,7 +4,8 @@ st.title('DriverCheck')
 
 
 def main():
-    check = input('Please type 1 if river license is present, 0 if missing: ')
+    check = st.text_input(
+        'Please type 1 if river license is present, 0 if missing: ')
 
     if check == "1":
         print('User  allowed to drive')
