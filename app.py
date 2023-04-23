@@ -8,7 +8,7 @@ def main():
         f"""
          <style>
          .stApp {{
-             background-image: url("https://trafficlawfirm.com/wp-content/uploads/2019/05/How-Do-I-Check-if-My-License-Is-Suspended-in-Florida.jpg");
+             background-image: url("https://shorturl.at/dhrxT");
              background-attachment: fixed;
              background-size: cover;
          }}
@@ -19,6 +19,9 @@ def main():
 
 
 st.markdown(title, unsafe_allow_html=True)
+
+f1 = "Please type 'yes' if driver license is present, 'no' if missing: "
+
 
 check = st.text_input(
     "Please type 'yes' if driver license is present, 'no' if missing: ")
