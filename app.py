@@ -5,12 +5,12 @@ st.title('DriverCheck')
 
 def main():
     check = st.text_input(
-        'Please type 1 if river license is present, 0 if missing: ')
+        "Please type 'yes' if river license is present, 'no' if missing: ")
 
-    if check == "1":
+    if check == "yes":
         st.text('User  allowed to drive')
 
-        if check == "0":
+        if check == "no":
             st.text('User not allowed to drive')
     else:
         st.text('Command not recognized')
