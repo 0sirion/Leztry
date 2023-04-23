@@ -10,7 +10,7 @@ def main():
          .stApp {{
              background-image: url("https://trafficlawfirm.com/wp-content/uploads/2019/05/How-Do-I-Check-if-My-License-Is-Suspended-in-Florida.jpg");
              background-attachment: fixed;
-             background-size: center;
+             background-size: cover;
          }}
          </style>
          """,
