@@ -1,6 +1,6 @@
 import streamlit as st
 
-title = '<p style="font-family:sans-serif; color:Green; font-size: 42px;">Driver License Checker</p>'
+title = '<p style="font-family:sans-serif; color:#7eb400; font-size: 42px;">Driver License Checker</p>'
 
 
 def main():
@@ -10,7 +10,7 @@ def main():
          .stApp {{
              background-image: url("https://trafficlawfirm.com/wp-content/uploads/2019/05/How-Do-I-Check-if-My-License-Is-Suspended-in-Florida.jpg");
              background-attachment: fixed;
-             background-size: 50%
+             background-size: center
          }}
          </style>
          """,
