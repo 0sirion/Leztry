@@ -10,8 +10,8 @@ def main():
     if check == "yes":
         st.text('User  allowed to drive')
 
-        if check == "no":
-            st.text('User not allowed to drive')
+    if check == "no":
+        st.text('User not allowed to drive')
     else:
         st.text('Command not recognixzed')
 
