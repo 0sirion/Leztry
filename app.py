@@ -16,6 +16,19 @@ def main():
          """,
         unsafe_allow_html=True
     )
+    st.markdown(
+        """
+    <style>
+    check {
+        font-size: 3rem !important;
+    }
+    input {
+        font-size: 3rem !important;
+    }
+    </style>
+    """,
+        unsafe_allow_html=True,
+    )
 
 
 check = st.text_input(
