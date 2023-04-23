@@ -1,6 +1,6 @@
 import streamlit as st
 
-title = '<p style="font-family:sans-serif; color:#7eb400; font-size: 42px;">Driver License Checker</p>'
+title = '<p style="font-family:sans-serif; color:#7eb400; font-size: 42px;"><b>Driver License Checker</b></p>'
 
 
 def main():
